@@ -19,21 +19,41 @@
 <script type="text/javascript">
 "use strict";
 
-//some sample text.
-var sampleText ="Dyslexia Simulation";
-sampleText +=  "A friend who has dyslexia described to me how she experiences reading. She *can* read, but it takes a lot of concentration, and the letters seems to 'jump around'";
+/**
+ * Sample text in English
+ */
+// var sampleText ="Dyslexia Simulation";
+// sampleText +=  "A friend who has dyslexia described to me how she experiences reading. She *can* read, but it takes a lot of concentration, and the letters seems to 'jump around'";
 
-sampleText +="I remembered reading about [typoglycemia](https://en.wikipedia.org/wiki/Typoglycemia). Wouldn't it be possible to do it interactively on a website with Javascript? Sure it would.";
+// sampleText +="I remembered reading about [typoglycemia](https://en.wikipedia.org/wiki/Typoglycemia). Wouldn't it be possible to do it interactively on a website with Javascript? Sure it would.";
 
-sampleText +="Feel like making a bookmarklet of this or something? [Fork it](https://github.com/geon/geon.github.com/blob/master/_posts/2016-03-03-dsxyliea.md) on github.";
+// sampleText +="Feel like making a bookmarklet of this or something? [Fork it](https://github.com/geon/geon.github.com/blob/master/_posts/2016-03-03-dsxyliea.md) on github.";
 
-sampleText +=">Dyslexia is characterized by difficulty with learning to read fluently and with accurate comprehension despite normal intelligence. This includes difficulty with phonological awareness, phonological decoding, processing speed, orthographic coding, auditory short-term memory, language skills/verbal comprehension, and/or rapid naming.";
+// sampleText +=">Dyslexia is characterized by difficulty with learning to read fluently and with accurate comprehension despite normal intelligence. This includes difficulty with phonological awareness, phonological decoding, processing speed, orthographic coding, auditory short-term memory, language skills/verbal comprehension, and/or rapid naming.";
 
-sampleText +="> Developmental reading disorder (DRD) is the most common learning disability. Dyslexia is the most recognized of reading disorders, however not all reading disorders are linked to dyslexia.";
+// sampleText +="> Developmental reading disorder (DRD) is the most common learning disability. Dyslexia is the most recognized of reading disorders, however not all reading disorders are linked to dyslexia.";
 
-sampleText +="> Some see dyslexia as distinct from reading difficulties resulting from other causes, such as a non-neurological deficiency with vision or hearing, or poor or inadequate reading instruction. There are three proposed cognitive subtypes of dyslexia (auditory, visual and attentional), although individual cases of dyslexia are better explained by specific underlying neuropsychological deficits and co-occurring learning disabilities (e.g. attention-deficit/hyperactivity disorder, math disability, etc.). Although it is considered to be a receptive language-based learning disability in the research literature, dyslexia also affects one's expressive language skills. Researchers at MIT found that people with dyslexia exhibited impaired voice-recognition abilities.";
+// sampleText +="> Some see dyslexia as distinct from reading difficulties resulting from other causes, such as a non-neurological deficiency with vision or hearing, or poor or inadequate reading instruction. There are three proposed cognitive subtypes of dyslexia (auditory, visual and attentional), although individual cases of dyslexia are better explained by specific underlying neuropsychological deficits and co-occurring learning disabilities (e.g. attention-deficit/hyperactivity disorder, math disability, etc.). Although it is considered to be a receptive language-based learning disability in the research literature, dyslexia also affects one's expressive language skills. Researchers at MIT found that people with dyslexia exhibited impaired voice-recognition abilities.";
 
-sampleText +="*Source: [Wikipedia](http://en.wikipedia.org/wiki/Dyslexia)*";
+// sampleText +="*Source: [Wikipedia](http://en.wikipedia.org/wiki/Dyslexia)*";
+
+/**
+ * Sample text in Italian, googel automatic translated.
+ */
+var sampleText = "Simulazione Dislessia in Italiano";
+sampleText += "Un amico che ha dislessia mi ha descritto come le esperienze leggere. Lei può * leggere, ma richiede molta concentrazione e le lettere sembrano" saltare in giro ";
+
+sampleText += "Mi sono ricordato di leggere su [typoglycemia] (https://en.wikipedia.org/wiki/Typoglycemia). Non sarebbe possibile farlo in modo interattivo su un sito web con Javascript?";
+
+sampleText += "Sentiti come fare un bookmarklet di questo o qualcosa? [Forcalo] (https://github.com/geon/geon.github.com/blob/master/_posts/2016-03-03-dsxyliea.md ) Su github. ";
+
+sampleText += "> La dislessia è caratterizzata da difficoltà a imparare a leggere fluentemente e con una comprensione accurata nonostante la normale intelligenza, comprendente difficoltà di sensibilizzazione fonologica, decodifica fonologica, velocità di elaborazione, codifica ortografica, memoria breve auricolare, competenze linguistiche / comprensione verbale , E / o una rapida denominazione. ";
+
+sampleText += "> Disturbo di lettura dello sviluppo (DRD) è la disabilità più comune di apprendimento. La dislessia è il più riconosciuto dei disturbi della lettura, ma non tutti i disturbi della lettura sono legati alla dislessia.";
+
+sampleText += "> Alcuni vedono la dislessia distinta dalle difficoltà di lettura derivanti da altre cause, come ad esempio una carenza non neurologica con visione o udito, oppure scarsa o inadeguata istruzione di lettura. Ci sono tre sottotipi cognitivi proposti di dislessia (uditiva, visiva e Sebbene i singoli casi di dislessia siano meglio spiegati da specifici deficit neuropsicologici sottostanti e da disabilità di apprendimento co-occorrenziali (ad esempio disordine di attenzione / iperattività, disabilità della matematica, ecc.) Anche se è considerata un'apprendimento linguistico ricettivo La dislessia influenza anche le abilità linguistiche espressive. I ricercatori della MIT hanno scoperto che le persone con dislessia presentavano delle capacità di riconoscimento vocale compromesse. ";
+
+sampleText  = "* Fonte: [Wikipedia] (http://en.wikipedia.org/wiki/Dyslexia) *";
 
  document.getElementById('content').innerHTML = marked(sampleText);
 
